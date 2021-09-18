@@ -14,6 +14,7 @@ Rails.application.routes.draw do
     :registrations => 'members/members/registrations',
     :sessions => 'members/members/sessions'
   }
+  
 
   scope module: :members do
     root to: 'homes#top'
